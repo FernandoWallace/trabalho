@@ -1,0 +1,42 @@
+@media (max-width: 768px){
+ 	
+	nav{
+		display:none;
+	}
+	
+	.header{
+		margin-bottom: 20px;
+		justify-content: start;
+	}
+	
+	.presentation h1{
+		font-size: 50px; 
+	}
+	
+	.content-service, .services, .plan-container, .main-container{
+		flex-direction: column;
+    	justify-content: center;
+		align-items: center;
+	}
+		
+	.service-container{
+		padding: 20px 0;
+	}
+	
+	.services{
+		padding-left: 0px;
+	}
+	
+	.services div{
+		margin: 10px 0px;
+	}
+	
+	.services img{
+    max-width: 130px;
+	} 
+
+	.plan-container div{
+		width: 310px;
+	}
+
+}
