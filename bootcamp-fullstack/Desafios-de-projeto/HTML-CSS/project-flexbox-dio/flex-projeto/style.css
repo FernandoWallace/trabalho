@@ -50,6 +50,14 @@ nav > li a:hover{
     flex-wrap: wrap;
 }
 
+.container-planos{
+    max-width: 992px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 header{
     background-color: dodgerblue;
 }
