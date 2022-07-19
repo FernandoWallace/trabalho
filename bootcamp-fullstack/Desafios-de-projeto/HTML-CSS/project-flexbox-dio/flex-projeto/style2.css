@@ -9,13 +9,9 @@ a {
     color: black;
 }
 
-a:hover{
-    text-decoration: underline;
-}
+a:hover{text-decoration: underline;}
 
-img{
-    width: 100%;
-}
+img{width: 100%;}
 
 p{
    margin: 0;
@@ -38,9 +34,9 @@ nav > li a{
     color: aliceblue;
 }
 
-nav > li a:hover{
-    text-decoration: underline;
-}
+nav > li a:hover{text-decoration: underline;}
+
+.menu, #menu{display:none;}
 
 .btn{
     border-radius: 10px;
@@ -62,9 +58,7 @@ nav > li a:hover{
     color:aliceblue;
 }
 
-.header h1{
-    color: aliceblue;
-}
+.header h1{color: aliceblue;}
 
 .header{
 	display: flex;
@@ -105,9 +99,7 @@ nav > li a:hover{
 	padding-left: 50px;
 }
 
-.services img{
-    max-width: 100px;
-} 
+.services img{max-width: 100px;} 
 
 
 /*.services div > a{
