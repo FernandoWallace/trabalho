@@ -37,6 +37,8 @@
 	
 	.presentation h1{font-size: 50px; }
 	
+	.h2-qs{margin-bottom: 10px;}
+	
 	.content-service, .services, .plan-container, .main-container{
 		flex-direction: column;
     	justify-content: center;
@@ -45,7 +47,10 @@
 		
 	.service-container{padding: 20px 0px;}
 	
-	.services{margin-left: -35px; margin-top: 10px;}
+	.services{
+		margin-left: -35px; 
+		margin-top: 10px;
+	}
 	
 	.services div{margin: 10px 0px;}
 	
@@ -53,23 +58,35 @@
 
 	.plan-container div{
 		width:100%;
-		padding: 0 100px;
 		border: 0;
 	}
 
 	.plan-container {
 		margin: 0;
 		background-color: aliceblue;
+		padding-top: 20px;
+	}
+	
+	.plan-container h3{
+		width: 250px;
+		font-size: 30px; 
+	}
+	
+	.plan-container li{
+		padding: 10px 0;
+		font-size: 17px; 		
 	}
 
 }
 
 @media (max-width: 990px){
 	
-	.plan-container div{
-		max-width: 235px;
-	}
-		
+	.plan-container div{max-width: 240px;}
+	
+	.plan-container {margin-left: 5px; margin-right: 5px;}	
+	
+	.content-service, #quem-somos {margin-left: 10px; margin-right: 5px;}	
+	
 	.services{
 		justify-content: space-around;
 		padding-left: 35px;
