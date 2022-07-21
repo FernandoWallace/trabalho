@@ -36,7 +36,7 @@ nav > li a{
 
 nav > li a:hover{text-decoration: underline;}
 
-.menu, #menu{display:none;}
+.menu, .close-menu, #menu{display:none;}
 
 .btn{
     border-radius: 10px;
